@@ -22,4 +22,14 @@ nav {
 
 .fon {
     font-family: 'Satisfy', cursive;
+    color: #ff4136;
+}
+
+.fon1 {
+    font-family: 'Caveat', cursive;
+    color: #DDDDDD;
+}
+
+.fon3 {
+    font-family: 'Racing Sans One', cursive;
 }
