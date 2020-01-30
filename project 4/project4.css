@@ -3,3 +3,15 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#test1 {
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+#test2 {
+    font-family: 'Satisfy', cursive;
+    font-family: 'Bad Script', cursive;
+    font-size: 125%;
+}
