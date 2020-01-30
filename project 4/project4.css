@@ -16,6 +16,10 @@ nav {
     font-size: 125%;
 }
 
-#test3 {
-    height: 25%;
+#test6 {
+    height: 800px !important;
+}
+
+.fon {
+    font-family: 'Satisfy', cursive;
 }
