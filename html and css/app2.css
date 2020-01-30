@@ -1,0 +1,15 @@
+body {
+    background: url(https://image.freepik.com/free-vector/lit-night-fountain-realistic-illustration_1284-18962.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#li4 {
+    background-color: bisque;
+    border: 3px solid greenyellow;
+}
+
+.come {
+    background-color: orange;
+    text-decoration: line-through;
+}

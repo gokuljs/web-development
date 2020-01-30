@@ -1,0 +1,24 @@
+body {
+    font-size: 20px;
+}
+
+p {
+    font-size: 2.0em;
+    border: 4px solid goldenrod;
+    /* width and height related content*/
+    width: 300px;
+    /* or we can use 50 % actually of the parent element like body */
+    height: 200px;
+    /* padding*/
+    padding-left: 50px;
+    /* margin*/
+    /*or margin =50px*/
+    /* or margin-bottom: 50px;*/
+    /*margin: 100px 20px 300px 1px; */
+    /* shortcut for inserting margin all sides top,bottom,left,right*/
+    /*margin: 0 auto 0 auto;*/
+    /* more shoter way */
+    margin: 0 auto;
+    margin: 40px 20px;
+    /* first element shows for botton and top and next element shows for left and right */
+}

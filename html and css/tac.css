@@ -1,0 +1,25 @@
+h2 {
+    margin: 0 auto;
+    width: 250px;
+    height: 100px;
+    font-size: 50px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.vertical {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.horiz {
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+table {
+    margin: 0 auto;
+}

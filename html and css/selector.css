@@ -1,0 +1,56 @@
+/* star selecetor  */
+
+* {
+    border: 0.2px solid black;
+}
+
+
+/* star selecetor  is something that style changes that is going to be applied on everything */
+
+
+/* descendent selector   */
+
+
+/* Syntax*/
+
+
+/* what is happening in desendent selector is that it chooses all the a tag inside an li tag  */
+
+li a {
+    background: orange;
+    color: brown;
+}
+
+
+/* adjacent selector*/
+
+
+/* u can choose two tags at a time*/
+
+h4+ul {
+    background-color: blanchedalmond;
+}
+
+
+/* attribute selector */
+
+a[href="https://www.google.com/"] {
+    background-color: green;
+}
+
+
+/* its going to slect the attribute which is having href=" something */
+
+
+/* or all input boxes  like input [type="text or checkbox"] */
+
+
+/* n th type of selector*/
+
+ul:nth-of-type(2) {
+    background-color: orange;
+}
+
+li:nth-of-type(2) {
+    background-color: orange;
+}

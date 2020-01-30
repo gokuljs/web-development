@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login page</title>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <form>
+        <p>
+            <label for="firstname"><strong>firstname:</strong></label>
+            <input type="text" name="firstname" placeholder="firstname" id="firstname" required>
+            <label for="lastname"><strong>lastname:</strong></label>
+            <input type="text" name="lastname" placeholder="lastname" id="lastname" id="lastname" required>
+        </p>
+        <p>
+            <label for="male">male:</label>
+            <input type="radio" id="male" name="gender" value="MALE" required>
+            <label for="female">female:</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="other">other:</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+        </p>
+        <p>
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" id="email" name="email" placeholder="email@gmail.com" required>
+            <label for="password"><strong>password:</strong></label>
+            <input type="password" id="password" name="password" placeholder="password" minlength="5" required>
+
+        </p>
+        <p>
+            <label for="dob">Birthday</label>
+            <select id="dob" required name="month" aria-placeholder="month">
+                <option>jan</option>
+                <option>feb</option>
+                <option>mar</option>
+                <option>apr</option>
+                <option>may</option>
+                <option>jun</option>
+                <option>jul</option>
+                <option>aug</option>
+                <option>sep</option>
+                <option>oct</option>
+                <option>nov</option>
+                <option>dec</option>
+            </select>
+            <select id="dob" name="day" aria-placeholder="day">
+                <option>mon</option>
+                <option>tue</option>
+                <option>wed</option>
+                <option>thu</option>
+                <option>fri</option>
+                <option>sat</option>
+            </select>
+
+            <select id="dob" name="day" aria-placeholder="day">
+                <option>year</option>
+                <option>2019</option>
+
+            </select>
+        </p>
+        <p>
+            i agree terms and condition
+            <input type="checkbox">
+
+        </p>
+        <button>SUBMIT</button>
+
+    </form>
+</body>
+
+</html>

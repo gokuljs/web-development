@@ -1,0 +1,28 @@
+body {
+    background: url(https://images.unsplash.com/photo-1494774157365-9e04c6720e47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    padding: 25%;
+    color: antiquewhite;
+    font-family: 'Aref Ruqaa', serif;
+    /*adding text shadow*/
+    text-shadow: 0px 4px 3px rgpa(0, 0, 0, 0.4), 0px 8px 18px rgpa(0, 0, 0, 0.4);
+}
+
+.h1 {
+    font-weight: 10000000px;
+}
+
+.h3 {
+    font-weight: 1000px;
+}
+
+html {
+    height: 100%;
+}
+
+
+/* Gradient transparent - color - transparent */
