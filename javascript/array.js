@@ -5,7 +5,7 @@ function printreverse(arr) {
 }
 
 
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 23232];
+var arr = [1, 2, 3, 4, 5, 3, 4, 5, 6, 7, 8, 9];
 var a = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 printreverse(arr);
 console.log(isuniform(a));
@@ -20,5 +20,23 @@ function isuniform(arr1) {
     }
     return true;
 
+
+
+}
+var arr3 = [2, 3, 4, 5, 6, 7, 8, 9];
+
+max(arr3);
+console.log("max elementh is " + max(arr3));
+
+
+
+function max(arr) {
+    var max = arr[0];
+    for (var i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    return (max);
 
 }
