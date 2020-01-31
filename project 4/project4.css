@@ -32,4 +32,21 @@ nav {
 
 .fon3 {
     font-family: 'Racing Sans One', cursive;
+    color: #111111;
+}
+
+.fon4 {
+    font-family: 'Racing Sans One', cursive;
+    font-family: 'Caveat', cursive;
+    color: #001f3f;
+}
+
+.jumbotron {
+    background-color: rgba(248, 114, 4, 0.925);
+}
+
+.fon5 {
+    font-family: 'Satisfy', cursive;
+    color: orange;
+    font-size: 4rem;
 }
