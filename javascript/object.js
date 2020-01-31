@@ -1,27 +1,8 @@
-< !DOCTYPE html >
-    <
-    html >
-
-    <
-    head >
-    <
-    title > getting started with todo list < /title> <
-script src = "array.js" > < /script> < /
-head >
-
-    <
-    body >
-    <
-    h1 > Todo list < /h1> <
-ul >
-    <
-    li > new = add a todo < /li> <
-li > list = view all todo < /li> <
-li > quit app < /li>
-
-<
-/ul> < /
-body >
-
-    <
-    /html>
+var person = {
+    name: "gokuljs",
+    age: 21,
+    city: "banglore"
+}
+console.log(person.age);
+console.log(person.name);
+console.log(person.city);
