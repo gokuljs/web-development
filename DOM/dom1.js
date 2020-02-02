@@ -11,3 +11,10 @@ console.log(tags);
 var tag = document.getElementsByTagName("li");
 
 console.log(tag);
+var tag = document.getElementsByTagName("body");
+
+console.log(tag);
+
+var tag = document.getElementsByTagName("head");
+
+console.log(tag);
