@@ -18,3 +18,5 @@ console.log(tag);
 var tag = document.getElementsByTagName("head");
 
 console.log(tag);
+
+// query selector
