@@ -20,3 +20,6 @@
 //p.textContent 
 // so textcontent displays everything inside the web page 
 // and textcontent can used to change the content inside the paragraph
+
+//var ul=document.querySelector("ul");
+// ul.textContent
