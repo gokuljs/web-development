@@ -20,3 +20,5 @@ var tag = document.getElementsByTagName("head");
 console.log(tag);
 
 // query selector
+// returns the element that mathches a given css style selector  
+// but returns only the first tag which matches
