@@ -11,6 +11,19 @@
 
 /*h1.addEventListener("click",function(){
     h1.style.color="orange";
+}); // when u click on h1 the color will changes 
+and u can have more than ne event listen in an html
+
+example 2 
+document.querySelector("ul").addEventListener("click",function(){
+    alert("ul was clicked");
 });
+// accesing all the elements inside the event listener 
+using an for loop 
+for(var i=0;i<lis.length;i++){
+    lis[i].addEventListener("click",function(){
+        this.style.color="red";
+    });
+}
 
 */
