@@ -5,16 +5,30 @@ var dis2 = document.querySelector("#p2display");
 var reset = document.querySelector("#reset");
 var p1score = 0;
 var p2score = 0;
+var gameover = false;
+var winning = 5;
 
 p1.addEventListener("click", function() {
-    p1score++; //p1score clicked;
-    dis1.textContent = p1score;
+    if (!gameover) {
+        p1score++; //p1score clicked;
+        if (p1score === winning) {
+            console.log("you won");
+        }
+        dis1.textContent = p1score;
+    }
 
 });
 
 p2.addEventListener("click", function() {
-    p2score++;
-    dis2.textContent = p2score;
+    if (!gameover) {
+
+        p2score++;
+        if (p2score === winning) {
+            console.log("you won");
+        }
+
+        dis2.textContent = p2score;
+    }
 });
 
 reset.addEventListener("click", function() {
