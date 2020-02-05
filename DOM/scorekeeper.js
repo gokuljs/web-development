@@ -34,17 +34,26 @@ p2.addEventListener("click", function() {
 });
 
 reset.addEventListener("click", function() {
+    reset1();
+
+});
+
+function reset1() {
+
     p2score = 0;
     p1score = 0;
     dis2.textContent = p2score;
     dis1.textContent = p1score;
-
-});
+    gameover = false;
+}
 
 numinput.addEventListener("change", function() {
 
     // change is an other kind of an event the takes place when any kind of change takes place
 
     p3.textContent = numinput.value; // it gives the string of a value 
+    winning = Number(numinput.value);
+    reset1();
+
 
 });
