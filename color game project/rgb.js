@@ -1,4 +1,5 @@
-var colors = generateRandomColors(6);
+var numberofsquares = 6;
+var colors = generateRandomColors(numberofsquares);
 
 // spaces between the numbers are important
 var squares = document.querySelectorAll(".square");
@@ -14,10 +15,34 @@ var hardbtn = document.querySelector("#hardbtn");
 easybtn.addEventListener("click", function() {
     easybtn.classList.add("selected");
     hardbtn.classList.remove("selected");
+    colors = generateRandomColors(3);
+    pickedcolor = pickcolor();
+    test1.textContent = pickedcolor;
+    for (var i = 0; i < squares.length; i++) {
+        if (colors[i]) {
+            squares[i].style.backgroundColor = colors[i];
+        } else {
+            squares[i].style.display = "none";
+        }
+    }
+
 });
 hardbtn.addEventListener("click", function() {
     hardbtn.classList.add("selected");
     easybtn.classList.remove("selected");
+    colors = generateRandomColors(6);
+    pickedcolor = pickcolor();
+    test1.textContent = pickedcolor;
+    for (var i = 0; i < squares.length; i++) {
+        squares[i].style.backgroundColor = colors[i];
+
+        squares[i].style.display = "block";
+
+    }
+
+
+
+
 });
 
 
@@ -47,7 +72,7 @@ for (var i = 0; i < squares.length; i++) {
 }
 reset.addEventListener("click", function() {
     //generate random new colors 
-    colors = generateRandomColors(6);
+    colors = generateRandomColors(numberofsquares);
     //pick new color froom random color 
 
     pickedcolor = pickcolor();

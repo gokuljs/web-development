@@ -8,6 +8,15 @@ body {
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 15%;
+    transition: background 1.0s;
+    --webkit-transition: background 1.0s;
+    /*transition to work on all browsers*/
+    --moz-transition: background 1.0s;
+    /*transition to work on all browsers*/
 }
 
 #container {
@@ -18,7 +27,16 @@ body {
 h1 {
     color: white;
     text-align: center;
-    font-size: 85px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 150%;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Merienda', cursive;
+    text-transform: uppercase;
+}
+
+#test1 {
+    font-size: 200%;
 }
 
 #stripe {
@@ -29,5 +47,27 @@ h1 {
 }
 
 .selected {
-    background: blue;
+    background: orange;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: steelblue;
+    color: steelblue;
+    font-family: 'Merienda', cursive;
+    font-size: inherit;
+    transition: all 1.0s;
+}
+
+#message {
+    display: inline-block;
+    width: 30%;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
 }
