@@ -62,9 +62,13 @@ $("input[type='text']").on("keypress", function(event) {
         var todotext = $(this).val();
 
         // create a new li and add to ul
-        $("ul").append("<li> <span> x </span> " + todotext + "</li>");
+        $("ul").append("<li> <span><i class='fas fa-trash'></i> </span> " + todotext + "</li>");
 
 
 
     }
+});
+
+$(".fa-plus").click(function() {
+    $(":input[type='text']").fadeToggle();
 });
