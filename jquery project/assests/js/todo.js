@@ -30,7 +30,12 @@
 
 /// using css
 
-$("li").click(function() {
+// using on event rather than using other evenets directly
+// on will work on all the new eleemnts and existing elements
+
+
+
+$("ul").on("click", "li", function() { // this code tells us that when an li is clicked inside the ul run this code 
     $(this).toggleClass("completed"); // completed is the class created in css file 
 
 });
@@ -38,13 +43,28 @@ $("li").click(function() {
 
 // click on x to delete todo
 
-$("span").click(function(event) {
+// always pass the event to the parent element and agive action to take place in child element
+
+$("ul").on("click", "span", function(event) {
     $(this).parent().fadeOut(500, function() {
         $(this).remove;
     }); // normally $this.remove will remove the current element by adding parent to it it will remove the parent element 
     event.stopPropagation(); // this is used to stop eventbubbling 
     // not event bubbling is an phenomenon  that one or more events fire at same time 
 
+});
 
 
+$("input[type='text']").on("keypress", function(event) {
+    // grabbing new text from input value 
+    if (event.which === 13) {
+
+        var todotext = $(this).val();
+
+        // create a new li and add to ul
+        $("ul").append("<li> <span> x </span> " + todotext + "</li>");
+
+
+
+    }
 });
