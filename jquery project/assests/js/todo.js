@@ -1,5 +1,5 @@
-if (jQuery) {
-    alert("jQuery is added");
-} else {
-    alert("jquery not added");
-}
+// checking of specific todos by clicking 
+
+$('li').click(function() {
+    alert("clicked li")
+});
