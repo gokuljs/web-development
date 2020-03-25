@@ -31,5 +31,20 @@
 /// using css
 
 $("li").click(function() {
-    $(this).toggleClass("completed");
+    $(this).toggleClass("completed"); // completed is the class created in css file 
+
+});
+
+
+// click on x to delete todo
+
+$("span").click(function(event) {
+    $(this).parent().fadeOut(500, function() {
+        $(this).remove;
+    }); // normally $this.remove will remove the current element by adding parent to it it will remove the parent element 
+    event.stopPropagation(); // this is used to stop eventbubbling 
+    // not event bubbling is an phenomenon  that one or more events fire at same time 
+
+
+
 });
