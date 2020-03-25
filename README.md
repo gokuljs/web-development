@@ -25,3 +25,6 @@ https://developer.mozilla.org/en-US/docs/Web/Events
 # best site for getting linear gradients
 
 https://uigradients.com/#Parklife
+
+# icons
+https://cdnjs.com/libraries/font-awesome
