@@ -22,7 +22,7 @@ https://developer.mozilla.org/en-US/docs/Web/Events
 ![](images/rgb.png)
 
 
-# best site for getting linear gradients
+# site for getting linear gradients
 
 https://uigradients.com/#Parklife
 
