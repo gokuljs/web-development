@@ -38,6 +38,9 @@ http://paperjs.org/
 https://www.postman.com/  \
 https://www.postman.com/how-api-collaboration-works
 
-# windows-setup
+# windows-setup nodejs
 https://zarkom.net/blogs/windows-local-coding-environment-1204   \
 https://github.com/nodejs/node-gyp#on-windows
+
+# mongodb windows setup
+https://zarkom.net/blogs/how-to-install-mongodb-for-development-in-windows-3328
