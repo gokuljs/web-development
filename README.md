@@ -26,6 +26,7 @@ https://developer.mozilla.org/en-US/docs/Web/Events
 
 https://uigradients.com/#Parklife
 
+
 # icons
 https://cdnjs.com/libraries/font-awesome
 
@@ -43,4 +44,5 @@ https://zarkom.net/blogs/windows-local-coding-environment-1204   \
 https://github.com/nodejs/node-gyp#on-windows
 
 # mongodb windows setup
-https://zarkom.net/blogs/how-to-install-mongodb-for-development-in-windows-3328
+https://zarkom.net/blogs/how-to-install-mongodb-for-development-in-windows-3328  \
+https://zarkom.net/blogs
