@@ -24,7 +24,8 @@ https://developer.mozilla.org/en-US/docs/Web/Events
 
 # site for getting linear gradients
 
-https://uigradients.com/#Parklife
+https://uigradients.com/#Parklife  \
+https://htmlcolorcodes.com/
 
 
 # icons
